@@ -1,0 +1,1 @@
+7z a -mx1 -tzip dist/package.nw ./app_nwjs/*

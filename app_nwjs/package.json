@@ -1,0 +1,16 @@
+{
+    "main": "main.js",
+    "name": "Turquino",
+    "window": {
+        "width": 400,
+        "height": 400,
+        "position": "center",
+        "as_desktop": false,
+        "fullscreen": false,
+        "icon": "icon.png",
+        "frame": false
+    },
+    "dependencies": {
+        "tree-kill": "^1.2.2"
+    }
+}

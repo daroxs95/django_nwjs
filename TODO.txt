@@ -1,0 +1,4 @@
+-meter el package.nw dentro de nw.exe
+-renombrar nw.exe
+-borrar server_app antes de copiarla dentro de nwjs
+-check why the app need write permission to app folder
