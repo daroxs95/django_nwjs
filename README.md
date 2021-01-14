@@ -6,13 +6,26 @@ Only working for windows right now.
 
 ## How to use
 
-You need to tune up some files to adapt to your particular project, like:
+### Setup
+
+You need to have this apps registered on path, ready to use from `cmd`:
+
+- 7z
+- iscc (inno_setup bin folder)
+- pyinstaller
+- a python environment capable of running your django project (never has used the scripts from a virtual env, just globally, but this should not be difficult to accomplish).
+
+You also need to tune up some files to adapt to your particular project, like:
 
 - release.iss
 - app.spec
 - app_nwjs/index.html
 
-Also, you need to have a folder named `django_app` containing your django app(`manage.py`). And a folder `nwjs` containing a version of node-webkit.
+Finally, you need to have a folder named `django_app` containing your django app(`manage.py`). And a folder `nwjs` containing a version of node-webkit (`nw.exe`).
+
+### Building
+
+Run `bundle.bat` or `bundle_7zipped.bat`.
 
 ## Permissions issues
 
