@@ -1,5 +1,7 @@
 # Django & NW.js Template
 
+Convert your django app, to a desktop app using nw-js(node-webki).
+
 Only working for windows right now.
 
 
