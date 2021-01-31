@@ -10,7 +10,7 @@ const options = {
     method: 'HEAD'
 };
 
-const max_tries = 10; //max tries checking if server is alive
+const max_tries = 20; //max tries checking if server is alive
 let try_number = 1; //number of current try
 let main_app_open = false; //true if main windows is opened
 let loading_windows = null; //will hold instance of loading windows
